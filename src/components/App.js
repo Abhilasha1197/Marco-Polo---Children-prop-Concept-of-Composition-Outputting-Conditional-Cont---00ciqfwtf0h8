@@ -5,12 +5,10 @@ const App = () => {
   const [name,setname] = useState(arr[0]);
   const [btn,setbtn] = useState(arr[1]);
   const change = () =>{
-    let temp = arr[0];
-    arr[0] = arr[1];
-    arr[1] = temp;
+    
 
-    setname(name);
-    setbtn(btn);
+    setname(btn);
+    setbtn(name);
   }
   return (
     <div id="main">
