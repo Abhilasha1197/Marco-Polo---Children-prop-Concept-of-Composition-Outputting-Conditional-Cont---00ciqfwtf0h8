@@ -9,8 +9,8 @@ const App = () => {
     arr[0] = arr[1];
     arr[1] = temp;
 
-    setname(arr[0]);
-    setbtn(arr[1]);
+    setname(name);
+    setbtn(btn);
   }
   return (
     <div id="main">
